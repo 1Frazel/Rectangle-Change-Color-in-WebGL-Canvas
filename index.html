@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js Canvas with Color Control</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #canvasContainer {
+            border: 1px solid black;
+            width: 500px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #controls {
+            margin-top: 10px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wm">
+        <h1>ComGraf Rectangle Change Color in WebGL Canvas</h1>
+        <h2>Nama: M. Adib Aulia Nurkhafif</h2>
+        <h2>NIM: 2602068965</h2>
+    </div>
+    <div id="canvasContainer">
+        <canvas id="webglCanvas"></canvas>
+    </div>
+    <div id="controls">
+        <button id="redButton">Red</button>
+        <button id="greenButton">Green</button>
+        <button id="blueButton">Blue</button>
+        <button id="resetButton">Reset Color</button>
+    </div>
+    <!-- Mengimpor script.js sebagai modul -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
